@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Equipamentos</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <form class="button">
+        <fieldset>
+          <legend>Equipamento:</legend>
+          <label for="codigo">Código:</label>
+          <input type="text" id="codigo" name="codigo"><br><br>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"><br><br>
+          <label for="preco">Preço:</label>
+          <input type="number" id="preco" name="preco" step="0.01"><br><br>
+          <input type="button" value="Adicionar" class="button" onclick="AdicionarEquipamento()">
+          <input type="button" value="Exibir" class="button" onclick="ExibirEquipamentos()"><br><br>
+          <input type="button" value="Atualizar Preço" class="button" onclick="AtualizarPreco()">
+        </fieldset>
+    </form>
+</body>
+</html>
